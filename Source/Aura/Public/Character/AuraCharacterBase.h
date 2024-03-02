@@ -19,7 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	//Access Tracking can check how often a pointer is referenced or dereferenced. Lazy Loading an asset cannot be loaded untill needed or used for the program. <--This is more of the standard
+	//Access Tracking can check how often a pointer is referenced or dereferenced. Lazy Loading an asset cannot be loaded until needed or used for the program. <--This is more of the standard
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	TObjectPtr<USkeletalMeshComponent> Weapon;
 };
